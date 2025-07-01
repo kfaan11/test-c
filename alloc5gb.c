@@ -3,7 +3,7 @@
 
 int main() {
     // 5 GB = 5 * 1024 * 1024 * 1024 bytes
-    size_t size = 5L * 1024 * 1024 * 1024;
+    size_t size = 1L * 1024 * 1024 * 1024;
 
     void *ptr = malloc(size);
 
